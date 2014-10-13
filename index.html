@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>test Node</title>
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.0.4.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/Main.js"></script>
+    <script src="js/modernizr.js"></script>
+    <script src="js/SingleMessage.js"></script>
+
+    <link rel="stylesheet" href="css/style.css"/>
+
+<!--Fancyyyyyyyyyyyyyyy-->
+
+    <!-- Add mousewheel plugin (this is optional) -->
+    <script type="text/javascript" src="lib/jquery.mousewheel-3.0.6.pack.js"></script>
+
+    <!-- Add fancyBox main JS and CSS files -->
+    <script type="text/javascript" src="source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css" media="screen" />
+
+    <!-- Add Button helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+    <script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js"></script>
+
+    <!-- Add Thumbnail helper (this is optional) -->
+    <link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+    <script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js"></script>
+
+    <!-- Add Media helper (this is optional) -->
+    <script type="text/javascript" src="source/helpers/jquery.fancybox-media.js"></script>
+<!--Fancyyyyyyyyyyyyyyy-->
+
+</head>
+<body>
+
+<label>Name</label>
+<input id="nameUser"type="text"/>
+
+<div class="ContentMessage">
+    <div id="panel" class="Courrier"></div>
+    <div id="sendMes" class="contentbutton">
+        <input id="msg" type="text"/>
+        <button value="Send" id="Send">
+            <i class="fa fa-paper-plane"></i>
+        </button>
+        <button id="pizarra" class="fancybox fancybox.iframe">
+            <i class="fa fa-paint-brush"></i>
+        </button>
+    </div>
+</div>
+
+</body>
+</html>
